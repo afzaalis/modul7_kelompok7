@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using modul7_kelompok_8;
 using modul7_kelompok7;
 class Program
 {
@@ -8,6 +9,11 @@ class Program
         mhs.ReadJSON();
 
 
+
+
+
+        teamMember_1302220104 memberData = new teamMember_1302220104();
+        memberData.ReadJSON2();
 
     }
 }
